@@ -1,0 +1,157 @@
+body{
+background-color: aliceblue;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease; /* Animation fluide */
+}
+
+.one:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-2px); /* Légère élévation */
+    box-shadow: 5px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+.one h1 {
+    color: #B41C3B; /* Rouge pour matcher la nav du bas */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.button{
+    margin-top: 50px;
+    display: flex; 
+    justify-content: space-around;
+    
+}
+.button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20%;
+    border-color: aliceblue;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #B41C3B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #8e162f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permet le retour à la ligne après 3 cartes */
+    justify-content: center; /* Centre les cartes horizontalement */
+    gap: 20px; /* Espacement entre les cartes */
+    padding: 20px;
+    max-width: 1200px; /* Limite la largeur pour éviter l'étalement */
+    margin: 0 auto; /* Centre le container */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33.33% - 20px); /* 3 cartes par ligne avec espacement */
+    min-width: 250px; /* Largeur minimale pour éviter le rétrécissement */
+    box-sizing: border-box;
+}
+
+.image {
+    background-color: #ddd;
+    padding: 40px; /* Taille plus grande pour l'image */
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 10px 0;
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B41C3B; 
+    padding:5px 0;
+    position:sticky;
+    z-index: 100;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2px; 
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  
+   
+}
+
+.footer-item:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.footer-icon {
+    width: 50px; 
+    height: 50px;
+    background-color: #B41C3B; 
+    padding: 10px; 
+    border-radius: 30%;}
+    .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #B41C3B;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    
+    .nav-item {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    

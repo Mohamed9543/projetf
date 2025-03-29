@@ -1,0 +1,48 @@
+<div class="container">
+        <header>
+            <h1>Market place</h1>
+            <div class="buttons">
+                <button class="service">Réserver un service</button>
+                <button class="promotion">Promotion</button>
+            </div>
+            <div class="filters">
+                <button>Plomberie</button>
+                <button>Maçonnerie</button>
+                <button>Électricité</button>
+            </div>
+        </header>
+
+        <section class="services">
+            <div class="card">
+                <span class="discount">20%</span>
+                <div class="image">Image</div>
+                <p class="speciality">Plomberie</p>
+                <p class="price">Nouveau prix</p>
+            </div>
+            <div class="card">
+                <span class="discount">25%</span>
+                <div class="image">Image</div>
+                <p class="speciality">Maçonnerie</p>
+                <p class="price">Nouveau prix</p>
+            </div>
+            <div class="card">
+                <span class="discount">40%</span>
+                <div class="image">Image</div>
+                <p class="speciality">Électricité</p>
+                <p class="price">Nouveau prix</p>
+            </div>
+            <div class="card">
+                <span class="discount">15%</span>
+                <div class="image">Image</div>
+                <p class="speciality">Plomberie</p>
+                <p class="price">Nouveau prix</p>
+            </div>
+        </section>
+    </div>
+
+    <nav class="bottom-nav">
+        <button>?? Accueil</button>
+        <button class="active">?? Market Place</button>
+        <button>?? Messages</button>
+        <button>?? Profil</button>
+    </nav>
