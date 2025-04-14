@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0172f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+/* Header Button */
+.header-button {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Profile Section */
+.profile-container {
+    margin-top: 60px;
+    position: relative;
+}
+.profile-pic {
+    background: #d3d3d3;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+.profile-pic img {
+    width: 100px;
+}
+.insert-text {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Form Section */
+.info-section {
+    margin-top: 20px;
+}
+h3 {
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.info-item {
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background: #e3a3a3;
+    font-style: italic;
+}
+
+/* Publish Button */
+.publish-button {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.nav-item {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.nav-item.active {
+    font-weight: bold;
+    opacity: 0.7;
+}

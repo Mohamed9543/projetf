@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Personal Informations</title>
+        <link rel="stylesheet" href="page2.css">
+      </head>
+      <body>
+        <div class="container">
+          <div class="title">employee personal informations</div>
+          <div class="profile">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar">
+            <div class="info">
+              <label>employee first name :</label>
+              <label>employee last name :</label>
+              <label>employee age :</label>
+              <label>employee address :</label>
+            </div>
+          </div>
+          <div class="comments" id="comments-section">
+            <div class="comment-box">
+              <div class="comment-header">
+                <span><strong class="user-id">user_id</strong> &nbsp;&nbsp; dd/mm/yyyy hh:mm am/pm</span>
+                <span class="heart">rating given : <span class="love">❤️</span></span>
+              </div>
+              <div class="comment-body"></div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-header">
+                <span><strong class="user-id">user_id</strong> &nbsp;&nbsp; dd/mm/yyyy hh:mm am/pm</span>
+                <span class="heart">rating given : <span class="love">❤️</span></span>
+              </div>
+              <div class="comment-body"></div>
+            </div>
+          </div>
+      
+          <div class="input-box">
+            <textarea id="comment-input" placeholder="Write your comment here..."></textarea>
+          </div>
+      
+          <div class="submit-box">
+            <button class="submit-button" onclick="addComment()">isert your own comment and rating</button>
+          </div>
+      
+          <div class="footer-icons">
+            <i>📥</i>
+            <i>👤</i>
+            <i>💬</i>
+          </div>
+        </div>
+  <script src="page2.js"></script>
+</body>
+</html>
